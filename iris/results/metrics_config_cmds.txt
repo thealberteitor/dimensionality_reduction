@@ -1,0 +1,6 @@
+spearman=0.993
+ari=0.596
+silhouette=0.524
+ 
+trustworthiness=0.975
+continuity=0.988
