@@ -1,0 +1,7 @@
+Package 'mclust' version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+initial  value 28.210821 
+final  value 28.203622 
+converged
+Error: objeto 'rank0' no encontrado
+Ejecución interrumpida

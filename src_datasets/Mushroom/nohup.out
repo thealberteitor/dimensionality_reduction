@@ -1,0 +1,66 @@
+Loading required package: smacof
+Loading required package: plotrix
+Loading required package: colorspace
+Loading required package: e1071
+
+Attaching package: ‘smacof’
+
+The following object is masked from ‘package:base’:
+
+    transform
+
+
+Attaching package: ‘smacofx’
+
+The following object is masked from ‘package:stats’:
+
+    cmdscale
+
+Package 'mclust' version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+Minimizing lmds with tau= 0.5 k= 15 
+Loading required package: smacof
+Loading required package: plotrix
+Loading required package: colorspace
+Loading required package: e1071
+
+Attaching package: ‘smacof’
+
+The following object is masked from ‘package:base’:
+
+    transform
+
+
+Attaching package: ‘smacofx’
+
+The following object is masked from ‘package:stats’:
+
+    cmdscale
+
+Package 'mclust' version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+Minimizing lmds with tau= 0.5 k= 15 
+Error in cor(as.vector(d0_mat), as.vector(d1), method = "spearman") : 
+  incompatible dimensions
+Ejecución interrumpida
+Loading required package: smacof
+Loading required package: plotrix
+Loading required package: colorspace
+Loading required package: e1071
+
+Attaching package: ‘smacof’
+
+The following object is masked from ‘package:base’:
+
+    transform
+
+
+Attaching package: ‘smacofx’
+
+The following object is masked from ‘package:stats’:
+
+    cmdscale
+
+Package 'mclust' version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+Minimizing lmds with tau= 0.5 k= 15 

@@ -1,0 +1,14 @@
+** ------------------------------------------------------- **
+** Rdimtools || Dimension Reduction and Estimation Toolbox
+**
+** Version    : 1.1.2       (2025)
+** Maintainer : Kisung You  (kisungyou@outlook.com)
+** Website    : https://kisungyou.com/Rdimtools/
+**
+** Please see 'citation('Rdimtools)' to cite the package. 
+** ------------------------------------------------------- **
+Warning messages:
+1: In rgl.init(initValue, onlyNULL) : RGL: unable to open X11 display
+2: 'rgl.init' failed, running with 'rgl.useNULL = TRUE'. 
+Package 'mclust' version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.

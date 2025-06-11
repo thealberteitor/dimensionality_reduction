@@ -1,0 +1,21 @@
+Package 'mclust' version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+Warning messages:
+1: In grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'C‑MDS' in 'mbcsToSbcs': dot substituted for <e2>
+2: In grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'C‑MDS' in 'mbcsToSbcs': dot substituted for <80>
+3: In grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'C‑MDS' in 'mbcsToSbcs': dot substituted for <91>
+4: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'C‑MDS' in 'mbcsToSbcs': dot substituted for <e2>
+5: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'C‑MDS' in 'mbcsToSbcs': dot substituted for <80>
+6: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'C‑MDS' in 'mbcsToSbcs': dot substituted for <91>
+7: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'C‑MDS' in 'mbcsToSbcs': dot substituted for <e2>
+8: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'C‑MDS' in 'mbcsToSbcs': dot substituted for <80>
+9: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'C‑MDS' in 'mbcsToSbcs': dot substituted for <91>

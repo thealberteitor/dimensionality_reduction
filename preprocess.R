@@ -15,14 +15,12 @@ impute_by_class_median <- function(data, labels) {
 }
 
 # Eliminación de columnas de varianza cero
-# Para evitar divisiones por cero en el escalado
 drop_constant_columns <- function(data) {
   non_const <- apply(data, 2, function(col) sd(col, na.rm = TRUE) > 0)
   data[, non_const, drop = FALSE]
 }
 
 # Eliminación de outliers por Z‑score
-# Devuelve la matriz limpia y el vector lógico de filas retenidas
 enable_outlier_removal <- function(data, threshold = 3) {
   z <- scale(data)
   keep <- apply(z, 1, function(row) all(abs(row) < threshold))

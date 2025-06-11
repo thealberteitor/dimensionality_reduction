@@ -1,0 +1,30 @@
+Loading required package: smacof
+Loading required package: plotrix
+Loading required package: colorspace
+Loading required package: e1071
+Registered S3 methods overwritten by 'tools':
+  method                    from     
+  as.character.Rconcordance backports
+  print.Rconcordance        backports
+
+Attaching package: ‘smacof’
+
+The following object is masked from ‘package:base’:
+
+    transform
+
+
+Attaching package: ‘smacofx’
+
+The following object is masked from ‘package:stats’:
+
+    cmdscale
+
+Warning message:
+In check_dep_version() : ABI version mismatch: 
+lme4 was built with Matrix ABI version 0
+Current Matrix ABI version is 1
+Please re-install lme4 from source or restore original ‘Matrix’ package
+Package 'mclust' version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+Minimizing lmds with tau= 0.5 k= 15 

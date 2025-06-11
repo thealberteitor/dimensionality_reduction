@@ -1,0 +1,5 @@
+Spearman=0.737
+ARI=0.149
+Silhouette=0.394
+Trustworthiness=0.826
+Continuity=0.905
