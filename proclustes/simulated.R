@@ -31,7 +31,7 @@ perplexities <- c(5, 15, 30, 50)
 for (p in perplexities) {
   cat(sprintf("Ejecutando t-SNE con perplexity = %d...\n", p))
   method_name <- sprintf("t-SNE (p=%d)", p)
-  tsne_fit <- Rtsne(X_jitter, perplexity = p, verbose = FALSE, max_iter = 200, check_duplicates = FALSE)
+  tsne_fit <- Rtsne(X_jitter, perplexity = p, verbose = FALSE, max_iter = 1000, check_duplicates = FALSE)
   embeddings_list[[method_name]] <- tsne_fit$Y
 }
 

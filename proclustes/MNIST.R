@@ -37,7 +37,7 @@ d0 <- dist(X_jitter)
 
 cat("Ejecutando los 4 métodos de reducción de dimensionalidad para el dataset MNIST...\n")
 
-tsne_fit <- Rtsne(X_jitter, perplexity = 30, verbose = FALSE, max_iter = 200, check_duplicates = FALSE)
+tsne_fit <- Rtsne(X_jitter, perplexity = 30, verbose = FALSE, max_iter = 1000, check_duplicates = FALSE)
 emb_tsne <- tsne_fit$Y
 
 lmds_fit <- lmds(delta = d0, k = 15, ndim = 2, tau = 0.5, verbose = 1)

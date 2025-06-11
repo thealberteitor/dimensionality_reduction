@@ -46,7 +46,7 @@ d0 <- dist(X_jitter)
 
 cat("Ejecutando los 4 métodos de reducción de dimensionalidad para el dataset Mushroom...\n")
 
-tsne_fit <- Rtsne(X_jitter, perplexity = 30, verbose = FALSE, max_iter = 200)
+tsne_fit <- Rtsne(X_jitter, perplexity = 30, verbose = FALSE, max_iter = 1000)
 emb_tsne <- tsne_fit$Y
 
 lmds_fit <- lmds(delta = d0, k = 15, ndim = 2, tau = 0.5, verbose = 0)

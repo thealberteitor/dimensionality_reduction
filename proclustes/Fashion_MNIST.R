@@ -40,7 +40,7 @@ cat("Ejecutando los 4 métodos de reducción de dimensionalidad para el dataset 
 
 # Los parámetros se mantienen idénticos para una comparación justa
 # a) t-SNE
-tsne_fit <- Rtsne(X_jitter, perplexity = 30, verbose = FALSE, max_iter = 200, check_duplicates = FALSE)
+tsne_fit <- Rtsne(X_jitter, perplexity = 30, verbose = FALSE, max_iter = 1000, check_duplicates = FALSE)
 emb_tsne <- tsne_fit$Y
 
 # b) MDS Local
