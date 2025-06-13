@@ -1,0 +1,5 @@
+	t-SNE	MDS Local	Sammon	MDS Clásico
+t-SNE	0	0.338	0.387	0.387
+MDS Local	0.338	0	0.433	0.433
+Sammon	0.387	0.433	0	0
+MDS Clásico	0.387	0.433	0	0
